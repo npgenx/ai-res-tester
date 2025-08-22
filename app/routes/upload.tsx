@@ -11,6 +11,7 @@ const Upload = () => {
     const { auth, isLoading, fs, ai, kv } = usePuterStore();
     const navigate = useNavigate();
     const [isProcessing, setIsProcessing] = useState(false);
+    const [hasError, setHasError] = useState(false);
     const [statusText, setStatusText] = useState('');
     const [file, setFile] = useState<File | null>(null);
 
@@ -42,22 +43,36 @@ const Upload = () => {
             companyName, jobTitle, jobDescription,
             feedback: '',
         }
-        await kv.set(`resume:${uuid}`, JSON.stringify(data));
-
+        let test2 = await kv.set(`resume:${uuid}`, JSON.stringify(data));
+   console.log('KV Set 1:', test2);
         setStatusText('Analyzing...');
 
         const feedback = await ai.feedback(
             uploadedFile.path,
             prepareInstructions({ jobTitle, jobDescription })
-        )
+        ).catch((error) => {
+            console.error('Error during feedback analysis:', error);
+
+            if (error instanceof Error) {
+                setStatusText(`Error: ${error.message}`);
+            }
+            setStatusText('Error: Failed to analyze resume');
+
+            setHasError(true);
+
+        });
+
+
         if (!feedback) return setStatusText('Error: Failed to analyze resume');
 
         const feedbackText = typeof feedback.message.content === 'string'
             ? feedback.message.content
             : feedback.message.content[0].text;
-
+        
         data.feedback = JSON.parse(feedbackText);
-        await kv.set(`resume:${uuid}`, JSON.stringify(data));
+        console.log('Data:', data);
+        let test1 = await kv.set(`resume:${uuid}`, JSON.stringify(data));
+        console.log('KV Set Result:', test1);
         setStatusText('Analysis complete, redirecting...');
         console.log(data);
         navigate(`/resume/${uuid}`);
@@ -88,7 +103,8 @@ const Upload = () => {
                     {isProcessing ? (
                         <>
                             <h2>{statusText}</h2>
-                            <img src="/images/resume-scan.gif" className="w-full" />
+                            {hasError ? <div>Oops</div> : <img src="/images/resume-scan.gif" className="w-full" /> } 
+                            
                         </>
                     ) : (
                         <h2>Drop your resume for an ATS score and improvement tips</h2>
