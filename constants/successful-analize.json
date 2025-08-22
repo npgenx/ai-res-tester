@@ -1,0 +1,132 @@
+{
+    "id": "76533e12-995f-47f8-b48f-a06b50e8a33c",
+    "resumePath": "/test3/AppData/app-907541aa-7512-568b-af67-9f6b383a53ca/jpmorgan-resume-developer (5).pdf",
+    "imagePath": "/test3/AppData/app-907541aa-7512-568b-af67-9f6b383a53ca/jpmorgan-resume-developer (5).png",
+    "companyName": "asdasd",
+    "jobTitle": "dev",
+    "jobDescription": "Senior Frontend Software Engineer (Remote – US or Canada)\n\n\n\nLocation: 100% Remote - based in US or Canada\n\nDuration: 6-month contract\n\n \nWe are partnering with an innovative tech organization dedicated to building accessible, open-source tools used by millions across the globe. They are currently looking to bring on a Senior Frontend Engineer to join a fully remote team focused on delivering a high-quality web experience across desktop platforms. This is a great opportunity for engineers who are passionate about performance, clean design, and the open web.\n\n\nPosition Overview:\n\nAs a Senior Frontend Engineer, you will collaborate with cross-functional teams to enhance the user interface and user experience of a well-known web browser. You’ll work closely with fellow developers and designers to implement new features, drive performance improvements, and uphold code quality standards across a large and mature codebase. Your work will directly impact millions of users around the world.\n\n\nKey Responsibilities:\n\nDevelop intuitive and accessible front-end components with a focus on usability\nCollaborate with product and design teams to prototype and deliver features\nContribute to a broad codebase and support cross-platform development (Windows, macOS, Linux)\nConduct code reviews, mentor teammates, and advocate for engineering best practices\nAddress complex technical challenges related to performance, security, and scalability\nParticipate in discussions to shape strategy and identify engineering improvements\n\n\nWhat We’re Looking For:\n\n4+ years of experience in a front-end engineering role\nStrong proficiency with JavaScript - MUST BE Vanilla JS, HTML, and CSS\nTrack record of shipping quality user-facing software\nComfortable working in a distributed team setting and engaging in both synchronous and asynchronous collaboration\nOpen to sharing feedback, asking thoughtful questions, and offering ideas for improvement\nA team-first mindset and commitment to building inclusive, respectful working environments",
+    "feedback": {
+        "overallScore": 85,
+        "ATS": {
+            "score": 90,
+            "tips": [
+                {
+                    "type": "good",
+                    "tip": "Clear section headings and consistent formatting"
+                },
+                {
+                    "type": "good",
+                    "tip": "Relevant keywords for frontend development are well-distributed"
+                },
+                {
+                    "type": "improve",
+                    "tip": "Add more vanilla JavaScript emphasis to align with job requirements"
+                },
+                {
+                    "type": "improve",
+                    "tip": "Consider adding a skills section specifically for browser development experience"
+                }
+            ]
+        },
+        "toneAndStyle": {
+            "score": 85,
+            "tips": [
+                {
+                    "type": "good",
+                    "tip": "Professional and achievement-oriented language",
+                    "explanation": "The resume uses strong action verbs and quantifies achievements with percentages, which effectively communicates impact."
+                },
+                {
+                    "type": "good",
+                    "tip": "Consistent bullet point structure",
+                    "explanation": "Each bullet point follows a similar pattern of action + technology + result, making it easy for recruiters to scan."
+                },
+                {
+                    "type": "improve",
+                    "tip": "Emphasize collaborative achievements",
+                    "explanation": "The job description emphasizes team collaboration and mentorship. While technical achievements are well-documented, add more examples of cross-functional teamwork and mentoring junior developers."
+                },
+                {
+                    "type": "improve",
+                    "tip": "Highlight open-source contributions",
+                    "explanation": "The job is with an organization focused on open-source tools, but the resume doesn't mention any open-source contributions or experience with open-source development workflows."
+                }
+            ]
+        },
+        "content": {
+            "score": 80,
+            "tips": [
+                {
+                    "type": "good",
+                    "tip": "Quantified achievements with metrics",
+                    "explanation": "Including specific percentages of improvement (e.g., 'reducing tech debt by 80%') provides concrete evidence of impact."
+                },
+                {
+                    "type": "good",
+                    "tip": "Comprehensive technology stack listings",
+                    "explanation": "Each role includes a detailed list of technologies used, making it easy to match skills with job requirements."
+                },
+                {
+                    "type": "improve",
+                    "tip": "Emphasize vanilla JavaScript experience",
+                    "explanation": "The job specifically requires strong vanilla JavaScript skills, but the resume emphasizes frameworks like React and Vue more prominently. Highlight core JavaScript expertise and browser-specific development."
+                },
+                {
+                    "type": "improve",
+                    "tip": "Add accessibility experience",
+                    "explanation": "The job description specifically mentions developing 'accessible front-end components,' but the resume lacks explicit mention of accessibility standards, ARIA, or experience with accessibility testing tools."
+                }
+            ]
+        },
+        "structure": {
+            "score": 90,
+            "tips": [
+                {
+                    "type": "good",
+                    "tip": "Clear chronological organization",
+                    "explanation": "The resume follows a logical reverse-chronological format that makes career progression easy to follow."
+                },
+                {
+                    "type": "good",
+                    "tip": "Consistent formatting across sections",
+                    "explanation": "Each job entry follows the same format with company, location, dates, bullet points, and technologies, creating a clean, scannable document."
+                },
+                {
+                    "type": "good",
+                    "tip": "Effective use of bullet points",
+                    "explanation": "Bullet points are concise and focused on specific achievements rather than general responsibilities."
+                },
+                {
+                    "type": "improve",
+                    "tip": "Consider a skills-based summary section",
+                    "explanation": "For this specific job, consider adding a dedicated 'Browser Development Experience' section near the top to immediately highlight relevant experience with web browsers and cross-platform development."
+                }
+            ]
+        },
+        "skills": {
+            "score": 80,
+            "tips": [
+                {
+                    "type": "good",
+                    "tip": "Comprehensive frontend technology stack",
+                    "explanation": "The resume demonstrates strong experience with modern frontend technologies including React, JavaScript, and CSS frameworks."
+                },
+                {
+                    "type": "good",
+                    "tip": "Full-stack capabilities",
+                    "explanation": "Experience with backend technologies like Node.js and databases shows versatility that could be valuable for understanding the full technology stack."
+                },
+                {
+                    "type": "improve",
+                    "tip": "Highlight cross-platform development experience",
+                    "explanation": "The job requires supporting Windows, macOS, and Linux platforms, but the resume doesn't specifically mention cross-platform development experience or challenges."
+                },
+                {
+                    "type": "improve",
+                    "tip": "Add browser-specific development experience",
+                    "explanation": "For a web browser development role, highlight any experience with browser APIs, WebExtensions, browser performance optimization, or browser compatibility issues."
+                }
+            ]
+        }
+    }
+}

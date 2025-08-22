@@ -1,0 +1,10 @@
+{
+    "success": false,
+    "error": {
+        "delegate": "usage-limited-chat",
+        "message": "Error 400 from delegate `usage-limited-chat`: Permission denied.",
+        "code": "error_400_from_delegate",
+        "$": "heyputer:api/APIError",
+        "status": 400
+    }
+}
